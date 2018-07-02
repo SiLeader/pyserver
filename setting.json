@@ -1,0 +1,10 @@
+{
+  "file_server": {
+    "type": "static",
+    "host": "127.0.0.1",
+    "port": 8000,
+    "root": "html",
+    "index": "index.html",
+    "completion": ".html"
+  }
+}

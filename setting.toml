@@ -1,0 +1,26 @@
+[wsgi_server]
+type = "wsgi"
+host = "localhost"
+port = 8080
+
+package = "."
+script = "test_server.py"
+object = "wsgi_server"
+
+[wsgi_server.options]
+version = false
+
+#[wsgi_server.tls]
+#port = 8443
+#chain = "internal/chain.crt"
+#key = "internal/key.key"
+#redirect = true
+
+#[file_server]
+#type = "static"
+#host = "localhost"
+#port = 8000
+#
+#root = "html"
+#index = "index.html"
+#completion = "html"
